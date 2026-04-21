@@ -164,8 +164,7 @@ export default function Contact() {
                   Get a detailed overview of my experience and qualifications.
                 </p>
                 <motion.a
-                  href="/CV/CV_IrminHernandez.pdf"
-                  download="CV_IrminHernandez.pdf"
+                  href="https://drive.google.com/uc?export=download&id=1s6qaDuIRetqPmSKPUwJqeFmrjk3tVkAv"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   className={`px-6 py-3 rounded-xl font-semibold flex items-center justify-center gap-2 transition-all ${
@@ -193,7 +192,7 @@ export default function Contact() {
                 <h3 className={`text-xl font-bold mb-2 ${
                   isDark ? 'text-white' : 'text-gray-900'
                 }`}>
-                  PGP Public Key
+                  Public Key
                 </h3>
                 <p className={`mb-4 text-sm ${
                   isDark ? 'text-gray-400' : 'text-gray-600'
@@ -201,7 +200,7 @@ export default function Contact() {
                   Use my public key for encrypted communication.
                 </p>
                 <motion.a
-                  href="/keys/public_key.asc"
+                  href="https://drive.google.com/uc?export=download&id=1PL9F_dOrAdog5GJihVVNNA8VvcW8YHtc"
                   download="irmin_public_key.asc"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
@@ -217,7 +216,7 @@ export default function Contact() {
                 <p className={`mt-4 text-xs font-mono ${
                   isDark ? 'text-gray-500' : 'text-gray-400'
                 }`}>
-                  Fingerprint: XXXX XXXX XXXX XXXX XXXX
+                  Public Key generated using P-256 Curve (X.509 PEM format)
                 </p>
               </div>
             </motion.div>
