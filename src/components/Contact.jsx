@@ -216,7 +216,7 @@ export default function Contact() {
                 <p className={`mt-4 text-xs font-mono ${
                   isDark ? 'text-gray-500' : 'text-gray-400'
                 }`}>
-                  Public Key generated using P-256 Curve (X.509 PEM format)
+                  Public Key generated using P-256 Curve (PEM format)
                 </p>
               </div>
             </motion.div>
